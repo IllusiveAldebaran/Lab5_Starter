@@ -2,7 +2,8 @@
 Francisco Gutierrez
 Hayden Dinh
 
-[Website GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/)
+[Website Expose GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/expose.html)
+[Website Explore GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/explore.html)
 
 ## Expose
  - [X] When you select a horn from the drop down menu, the following should occur:
