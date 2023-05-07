@@ -3,6 +3,7 @@ Francisco Gutierrez
 Hayden Dinh
 
 [Website Expose GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/expose.html)
+
 [Website Explore GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/explore.html)
 
 ## Expose
