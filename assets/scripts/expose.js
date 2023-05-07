@@ -15,16 +15,16 @@ function init() {
   horn_selection.addEventListener("change", (event) => {  
     switch (event.target.value) {
       case "car-horn":
-        horn_image.src = "url(./assets/images/car-horn.svg)";
-        horn_audio.src = "url(./assets/audio/car-horn.mp3)";
+        horn_image.src = "./assets/images/car-horn.svg";
+        horn_audio.src = "./assets/audio/car-horn.mp3";
 	break;
       case "air-horn":
-        horn_image.src = "url(./assets/images/air-horn.svg)";
-        horn_audio.src = "url(./assets/audio/air-horn.mp3)";
+        horn_image.src = "./assets/images/air-horn.svg";
+        horn_audio.src = "./assets/audio/air-horn.mp3";
 	break;
       case "party-horn":
-        horn_image.src = "url(./assets/images/party-horn.svg)";
-        horn_audio.src = "url(./assets/audio/party-horn.mp3)";
+        horn_image.src = "./assets/images/party-horn.svg";
+        horn_audio.src = "./assets/audio/party-horn.mp3";
 	break;
       default:
 	horn_image.src = "";
@@ -44,16 +44,16 @@ console.log(audio_level.value/100)
 
     // alternative is to multiply the above by 3 and put the string into ./assets/icons/volume-level-{volume}.svg
     if (audio_level.value == 0) {
-      volume_icon.src = "url(./assets/icons/volume-level-0.svg)"
+      volume_icon.src = "./assets/icons/volume-level-0.svg"
     }
     else if (audio_level.value < 33 ) {
-      volume_icon.src = "url(./assets/icons/volume-level-1.svg)"
+      volume_icon.src = "./assets/icons/volume-level-1.svg"
     }
     else if (audio_level.value < 67) {
-      volume_icon.src = "url(./assets/icons/volume-level-2.svg)"
+      volume_icon.src = "./assets/icons/volume-level-2.svg"
     }
     else {
-      volume_icon.src = "url(./assets/icons/volume-level-3.svg)"
+      volume_icon.src = "./assets/icons/volume-level-3.svg"
     }
 
   }); 
