@@ -6,7 +6,7 @@ Hayden Dinh
 
 [Website Explore GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/explore.html)
 
-[Hayden Github Actions](https://github.com/hpdinh/introduction-to-github/tree/main/.github)
+[Hayden Github Actions](https://github.com/hpdinh/introduction-to-github.git)
 
 ## Expose
  - [X] When you select a horn from the drop down menu, the following should occur:
