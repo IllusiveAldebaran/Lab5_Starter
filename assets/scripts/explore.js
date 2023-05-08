@@ -19,9 +19,18 @@ function populateVoiceList() {
 
 function init() {
   // TODO
-  if (synth.onvoiceschanged !== undefined) {
-    synth.onvoiceschanged = populateVoiceList;
+  if (speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = populateVoiceList;
   }
 
+  const button = document.querySelector("button");
+  const text = document.querySelector("textarea");
+
+  button.onclick = function() {
+    const utterThis = new SpeechSynthesisUtterance(text.value);
+    utterThis.voice = voices[voiceSelect.value];
+    synth.speak(utterThis);
+
+  }
   
 }
