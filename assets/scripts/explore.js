@@ -25,11 +25,18 @@ function init() {
 
   const button = document.querySelector("button");
   const text = document.querySelector("textarea");
+  const image = document.querySelector("img");
 
   button.onclick = function() {
     const utterThis = new SpeechSynthesisUtterance(text.value);
     utterThis.voice = voices[voiceSelect.value];
     synth.speak(utterThis);
+
+    image.src = "./assets/images/smiling-open.png";
+
+    utterThis.addEventListener("end", function() {
+      image.src = "./assets/images/smiling.png";
+    });
 
   }
   
