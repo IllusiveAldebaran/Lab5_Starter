@@ -20,10 +20,10 @@ Hayden Dinh
     - [X] From 67 and up the third volume level should be displayed
     - [X] The correct volume icon should be set
     - [X] The corresponding volume should be set for the audio element (note: this element’s volume is not out of 100)
-- [ ] When you click the “Play Sound” button the following should occur:
+- [X] When you click the “Play Sound” button the following should occur:
 
-    - [ ] The corresponding sound for the horn selected should play out loud at the specified volume
-    - [ ] If the Party Horn is selected, confetti should shoot out out, as shown in the video
+    - [X] The corresponding sound for the horn selected should play out loud at the specified volume
+    - [X] If the Party Horn is selected, confetti should shoot out out, as shown in the video
         - [ ] A library has been included for you to accomplish this, more on how to use it here https://github.com/loonywizard/js-confetti 
 
 - [ ] Links to an external site.
