@@ -32,7 +32,7 @@ function init() {
         horn_audio.src = "./assets/audio/party-horn.mp3";
 	break;
       default:
-	      horn_image.src = "";
+	horn_image.src = "";
         horn_audio.src = "";
 	
     }
