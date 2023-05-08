@@ -1,12 +1,15 @@
 # Lab 5 - Starter
-Francisco Gutierrez
+Francisco Gutierrez,
 Hayden Dinh
 
 [Website Expose GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/expose.html)
 
 [Website Explore GithubPages](https://illusivealdebaran.github.io/Lab5_Starter/explore.html)
 
+[Francisco Github Actions](https://github.com/illusivealdebaran/introduction-to-github.git)
+
 [Hayden Github Actions](https://github.com/hpdinh/introduction-to-github.git)
+
 
 ## Expose
  - [X] When you select a horn from the drop down menu, the following should occur:
